@@ -1,6 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom"
 import { useEffect, useState } from "react"
-import './movie.css'
 import swal from 'sweetalert'
 import { IMovie } from "../Home"
 import { TmdbService } from "../../services/tmdb"
@@ -76,22 +75,3 @@ export function Movie() {
 
     }
 }
-
-
-/*return (
-            <div className="movie-info">
-                <h1>{movie.title}</h1>
-                <img src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path}`} alt={movie.title} />
-                <h3>Sinopse</h3>
-                <span>{movie.overview}</span>
-                <strong> Avaliation: {movie.vote_average} / 10</strong>
-                <div className="area-button">
-                    <button onClick={onClick}>Save</button>
-                    <button>
-                        <a href={`https://www.youtube.com/results?search_query=${movie.title}+trailer`} target="blank" rel="external">
-                            Trailer
-                        </a>
-                    </button>
-                </div>
-            </div>
-        )*/

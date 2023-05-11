@@ -23,7 +23,8 @@ header {
     margin-bottom: 5px;
     margin-top: 5px;
 }
-.myFavorites-header:hover{
+
+.myFavorites-header:hover {
     background-color: #116feb;
     color: #fff;
     transition: all 0.5s;

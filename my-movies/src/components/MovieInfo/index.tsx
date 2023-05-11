@@ -1,7 +1,7 @@
 import { IMovieList } from '../MovieList'
 import './movieInfo.css'
 
-interface IMovieInfo extends IMovieList{
+interface IMovieInfo extends IMovieList {
     onClick: () => void
 }
 

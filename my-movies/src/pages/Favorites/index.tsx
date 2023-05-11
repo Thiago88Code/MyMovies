@@ -14,7 +14,6 @@ export function Favorites() {
 
             const savedMovies = JSON.parse(myList) || []
             setFavorites(savedMovies)
-            console.log(favorites)
         }
 
         loadFavorites()
@@ -24,7 +23,7 @@ export function Favorites() {
     const deleteMovie = useCallback((e: number) => {
         swal("Are you sure?", {
             dangerMode: true,
-          });
+        });
         let newFavorites = favorites.filter((f) => {
             return f.id !== e
         })

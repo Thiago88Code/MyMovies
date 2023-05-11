@@ -19,7 +19,7 @@ const getById = async (id: string | undefined): Promise<any> => {
             api_key: key
         }
     })
-    
+
     return response
 
 }
