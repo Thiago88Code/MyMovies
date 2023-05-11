@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: rgb(20, 20, 55);
+}
+
+.logo {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.myFavorites-header {
+    color: rgb(20, 20, 55);
+    background-color: #fff;
+    text-decoration: none;
+    padding: 5px 14px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.myFavorites-header:hover{
+    background-color: #116feb;
+    color: #fff;
+    transition: all 0.5s;
+}
