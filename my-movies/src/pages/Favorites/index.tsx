@@ -2,7 +2,6 @@ import { useState, useEffect, useCallback } from 'react'
 import './favorites.css'
 import { IMovie } from '../Home'
 import { Link } from 'react-router-dom'
-import swal from 'sweetalert'
 
 export function Favorites() {
 
@@ -21,9 +20,7 @@ export function Favorites() {
     }, [])
 
     const deleteMovie = useCallback((e: number) => {
-        swal("Are you sure?", {
-            dangerMode: true,
-        });
+        
         let newFavorites = favorites.filter((f) => {
             return f.id !== e
         })
