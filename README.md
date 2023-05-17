@@ -1,6 +1,6 @@
 # MyMovies 🎥
 
-"A project whose goal is to explore the resources of the "TMDB" api.
+"A project whose goal is to explore the resources of the "TMDB" api."
 
 ### 📋 Prerequisites
 
