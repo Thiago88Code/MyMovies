@@ -2,6 +2,8 @@
 
 "A project whose goal is to explore the resources of the "TMDB" api."
 
+https://github.com/Thiago88Code/MyMovies/assets/74308939/8e230204-0316-4f8b-9d58-3859e28f62cb
+
 ### 📋 Prerequisites
 
 You must have Node and Npm previously installed.
