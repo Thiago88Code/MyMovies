@@ -15,7 +15,7 @@ Recomended Node version: 20.0.0
 - In "src/services/tmdb/index.ts" Replace the value "API_KEY" with your personal key
 
 
-![Screenshot 2023-05-24 192738](https://github.com/Thiago88Code/MyMovies/assets/74308939/968e1c68-3bcd-4fbc-8fb9-4651c0cb245e)
+![Screenshot 2023-05-24 195102](https://github.com/Thiago88Code/MyMovies/assets/74308939/4f91d01d-c744-411d-b931-bd505b68df67)
 
 
 ### 🔧 Installing all dependencies using npm:
