@@ -1,7 +1,7 @@
 import api from "../api"
 
 
-const apiKey = "2a1756ded94fedab1ea64b5b62ea66f1"
+const apiKey = "API_KEY"
 
 const getAll = async (): Promise<any> => {
     const response = await api.get("movie/now_playing", {
